@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale = 1.0">
+    <meta charset="utf-8">
+    <title>log in/sign up form </title>
+   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Pau+Cin+Hau&family=Ubuntu:wght@300;500&display=swap" rel="stylesheet">
+
+    <link rel="shortcut icon" href="">
+    <link rel="stylesheet" href="./src/index.css">
+
+</head>
+
+<body>
+    
+
+<div class="box">
+    <div class="container" >
+        <form class="form " id="Login" >
+            <h1  style="font-family: 'ubuntu', sans-serif;" class="form_title">Login</h1>
+            <div class="form_message form_message-error"></div>
+            <div class="form_input-group">
+                <input type="text" class="form_input" autofocus placeholder="username or email">
+                <div class="form_input-error-message"></div>
+            </div>
+
+            <div class="form_input-group">
+                <input type="password" class="form_input" autofocus placeholder="password">
+                <div class="form_input-error-message"></div>
+            </div>  
+            <button class="form_button" type="submit">Continue</button>
+            <p class="form_text">
+                <a href="#" class="form_link">Forgot your password?</a>
+            </p>
+            <p class="form_text">
+                <a   href="#"  id="LinkCreateAccount" class="form_link">Don't have an account? Create one</a>
+            </p>
+        </form>
+ 
+
+        <form class="form form-hidden" id="Create" >
+            <h1  style="font-family: 'ubuntu', sans-serif;" class="form_title">Create account</h1>
+            <div class="form_message form_message-error"></div>
+            <div class="form_input-group">
+                <input type="text" class="form_input" autofocus placeholder="username">
+                <div class="form_input-error-message"></div>
+            </div>
+
+            <div class="form_input-group">
+                <input type="text" class="form_input" autofocus placeholder="Email Address">
+                <div class="form_input-error-message"></div>
+            </div>
+
+
+            <div class="form_input-group">
+                <input type="password" class="form_input" autofocus placeholder="password">
+                <div class="form_input-error-message"></div>
+            </div>  
+
+            <div class="form_input-group">
+                <input type="password" class="form_input" autofocus placeholder="Confirm Password">
+                <div class="form_input-error-message"></div>
+            </div>   
+            <button console.log(fjejf) class="form_button" type="submit">Continue</button>
+       
+            <p class="form_text">
+                <a href="#" id="LinkLogin" class="form_link">Already have an account? Sign in</a>
+            </p>
+        </form>
+    </div>
+</div>
+    <script src="./src/index.js">
+    </script>
+</body>
